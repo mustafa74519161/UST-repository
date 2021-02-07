@@ -22,7 +22,7 @@ public class Task1 {
 
     }
     public void delete(int n){
-        int num=a.length;
+       
         int pos=0;
         for (int i = 0; i <a.length ; i++)
         {
@@ -37,7 +37,7 @@ public class Task1 {
             }
             else a[i]=a[i+1];
         }
-        num--;
+        
     }
     public void clone1(){
         int b[]=new int[a.length];
